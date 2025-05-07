@@ -1,0 +1,7 @@
+auto_sync = true
+enter_accept = true
+inline_height = 20
+keymap_mode = "vim-insert"
+records = true
+search_mode = "fuzzy"
+style = "compact"

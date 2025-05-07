@@ -1,0 +1,29 @@
+name: Sync nixos-config
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clone source repository
+        run: |
+          git clone --depth 1 https://github.com/phucleeuwu/nixos-config temp_nix
+          rm -rf nix
+          mv temp_nix nix
+          rm -rf nix/.git
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add nix
+          git diff --staged --quiet || git commit -m "Sync nixos-config from phucleeuwu"
+          git push
