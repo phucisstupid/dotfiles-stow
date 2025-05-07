@@ -16,5 +16,5 @@ stow .
 
 ## ✏️ Note:
 -	Make sure you have Homebrew and stow installed (brew install stow).
--	For a full setup with apps and tools, you can optionally use my Brewfile included in the repo.
+-	For a full setup with apps and tools, you can optionally use my [Brewfile](./brew/Brewfile) included in the repo.
 -	⚠️ Important: Back up your ~/.config folder before running the script if you have existing configs.
