@@ -1,26 +1,20 @@
 # **Dotfiles Setup**
 
-![screenshot](https://github.com/user-attachments/assets/f18f5f01-6473-4a32-840a-774ee6e827cb)
-
----
-
-## **Nix ❄️**
-
-### Install [My nix-config](https://github.com/phucleeuwu/nixos-config) with [`Dotflow Script`](https://github.com/phucleeuwu/dotflow)
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucleeuwu/dotflow/main/nix.sh)"
-```
-> **Note:** For non-NixOS systems, my script will install [`Determinate Nix`](https://github.com/DeterminateSystems/nix-installer#installation).
-
-More details: check out [nixos-unified](https://nixos-unified.org/).
-
----
-
-## **Stow 🏠**
-
-### Install with [`Dotflow Script`](https://github.com/phucleeuwu/dotflow)
+## 🚀 Auto Install with [`Dotflow Script`](https://github.com/phucleeuwu/dotflow)
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucleeuwu/dotflow/main/stow.sh)"
 ```
+
+## ⚙️ Manual Install
+
+```bash
+git clone --depth 1 https://github.com/phucleeuwu/dotfiles-stow.git
+cd dotfiles-stow
+stow .
+```
+
+## ✏️ Note:
+-	Make sure you have Homebrew and stow installed (brew install stow).
+-	For a full setup with apps and tools, you can optionally use my Brewfile included in the repo.
+-	⚠️ Important: Back up your ~/.config folder before running the script if you have existing configs.
