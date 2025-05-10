@@ -1,4 +1,4 @@
 active_color=0xffeba0ac
 inactive_color=0xff1e1e2e
-order=above
-width=5
+order=below
+width=8
