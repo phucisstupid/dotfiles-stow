@@ -1,17 +1,12 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "9a09505"
+rev = "864a021"
 hash = "1f3dad061209081a6b04dd6ff2cb06c7"
 
 [[plugin.deps]]
-use = "KKV9/compress"
-rev = "60b24af"
-hash = "ee025be766240cc98e671754ac836da3"
-
-[[plugin.deps]]
 use = "imsi32/yatline"
-rev = "6b0fc1e"
-hash = "ab115c6cc77f5710c27f39dfa2f3d4d"
+rev = "2ecf715"
+hash = "38e2ea4703ea606d4eef574e8e8b8fd7"
 
 [[plugin.deps]]
 use = "imsi32/yatline-githead"
@@ -20,18 +15,18 @@ hash = "bfd30c396bbe2af526cb949d97ce3dcf"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "9a09505"
+rev = "864a021"
 hash = "e0ada736ea676c2bbb3ec705a49526ef"
 
 [[plugin.deps]]
 use = "DreamMaoMao/searchjump"
-rev = "df6ee75"
-hash = "b82022e48c23a2c8d0879b7bc46990a0"
+rev = "de54414"
+hash = "23e063e40a8dcded2a37c5433a627846"
 
 [[plugin.deps]]
 use = "DreamMaoMao/fg"
-rev = "652d02a"
-hash = "e078909d3a4bccc8bfa0ee194514a55"
+rev = "46a5c16"
+hash = "46dc32503296c68aa54e5ca30f022a6"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
