@@ -37,7 +37,7 @@
                 "useFont": false,
                 "fontFamily": "Helvetica Neue",
                 "textStroke": 0,
-                "engine": "svgFilter",
+                "engine": "cssFilter",
                 "stylesheet": "",
                 "darkSchemeBackgroundColor": "#181a1b",
                 "darkSchemeTextColor": "#e8e6e3",
@@ -65,7 +65,7 @@
                 "useFont": false,
                 "fontFamily": "Helvetica Neue",
                 "textStroke": 0,
-                "engine": "svgFilter",
+                "engine": "cssFilter",
                 "stylesheet": "",
                 "darkSchemeBackgroundColor": "#181a1b",
                 "darkSchemeTextColor": "#e8e6e3",
@@ -93,7 +93,7 @@
                 "useFont": false,
                 "fontFamily": "Helvetica Neue",
                 "textStroke": 0,
-                "engine": "svgFilter",
+                "engine": "cssFilter",
                 "stylesheet": "",
                 "darkSchemeBackgroundColor": "#181a1b",
                 "darkSchemeTextColor": "#e8e6e3",
@@ -121,7 +121,7 @@
                 "useFont": false,
                 "fontFamily": "Helvetica Neue",
                 "textStroke": 0,
-                "engine": "svgFilter",
+                "engine": "cssFilter",
                 "stylesheet": "",
                 "darkSchemeBackgroundColor": "#181a1b",
                 "darkSchemeTextColor": "#e8e6e3",
@@ -253,15 +253,17 @@
     "enableForProtectedPages": false,
     "enableContextMenus": false,
     "detectDarkTheme": false,
-    "displayedNews": [
-        "firefox-bugs"
-    ],
     "installation": {
         "date": 1739593335854,
         "reason": "install",
         "version": "4.9.102"
     },
+    "displayedNews": [
+        "firefox-bugs",
+        "google-docs-bugs"
+    ],
     "readNews": [
-        "firefox-bugs"
+        "firefox-bugs",
+        "google-docs-bugs"
     ]
 }
