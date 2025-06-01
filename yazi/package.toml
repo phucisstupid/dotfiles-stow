@@ -20,8 +20,8 @@ hash = "4d82cd9e7534d976f000edf9c0f68d8f"
 
 [[plugin.deps]]
 use = "Rolv-Apneseth/bypass"
-rev = "381fb89"
-hash = "d9efc1fb845e562900dd09cbcaa66386"
+rev = "a491789"
+hash = "76ef3836a3e81f47fac71fa3bb2cf5a8"
 
 [[plugin.deps]]
 use = "imsi32/yatline"
