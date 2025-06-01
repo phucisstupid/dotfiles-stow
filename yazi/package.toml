@@ -1,34 +1,44 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "864a021"
-hash = "1f3dad061209081a6b04dd6ff2cb06c7"
+rev = "63f9650"
+hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
-use = "imsi32/yatline"
-rev = "2ecf715"
-hash = "38e2ea4703ea606d4eef574e8e8b8fd7"
-
-[[plugin.deps]]
-use = "imsi32/yatline-githead"
-rev = "3b0eb7c"
-hash = "bfd30c396bbe2af526cb949d97ce3dcf"
+use = "yazi-rs/plugins:toggle-pane"
+rev = "63f9650"
+hash = "d5d4f3527592da5fbe77fd6f51815f80"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "864a021"
-hash = "e0ada736ea676c2bbb3ec705a49526ef"
+rev = "63f9650"
+hash = "bf6f074cd41ee33c3360341d168f9733"
 
 [[plugin.deps]]
-use = "DreamMaoMao/searchjump"
-rev = "de54414"
-hash = "23e063e40a8dcded2a37c5433a627846"
+use = "yazi-rs/plugins:smart-filter"
+rev = "63f9650"
+hash = "4d82cd9e7534d976f000edf9c0f68d8f"
 
 [[plugin.deps]]
-use = "DreamMaoMao/fg"
-rev = "46a5c16"
-hash = "46dc32503296c68aa54e5ca30f022a6"
+use = "Rolv-Apneseth/bypass"
+rev = "381fb89"
+hash = "d9efc1fb845e562900dd09cbcaa66386"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "4872af0"
+hash = "d32742ded0e73146a8ca590fdc4fb404"
+
+[[plugin.deps]]
+use = "imsi32/yatline-catppuccin"
+rev = "8cc4773"
+hash = "fd03fb015a28040bca0c0f9a8fe6fd8d"
+
+[[plugin.deps]]
+use = "imsi32/yatline-githead"
+rev = "f8f969e"
+hash = "4d441b38138ce6492a4e10fa349fd65"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "68326b4"
-hash = "2ac87e1b3a61f5887472899e86535d29"
+rev = "d04a298"
+hash = "288a0dedd5d13b28605cf82c05326dcd"
