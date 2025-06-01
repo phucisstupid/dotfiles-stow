@@ -91,7 +91,7 @@ run = 'move-node-to-workspace A'
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'spotify'
-run = 'move-node-to-workspace 2'
+run = 'move-node-to-workspace 4'
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'finder'
