@@ -9,7 +9,7 @@
         "grayscale": 0,
         "sepia": 0,
         "useFont": false,
-        "fontFamily": "Maple Mono NF",
+        "fontFamily": "Maple Mono",
         "textStroke": 0,
         "engine": "dynamicTheme",
         "stylesheet": "",
