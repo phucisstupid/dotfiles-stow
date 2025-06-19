@@ -33,4 +33,5 @@ cask "ghostty"
 cask "karabiner-elements"
 cask "raycast"
 cask "spotify"
+cask "ubersicht"
 
