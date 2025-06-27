@@ -89,7 +89,7 @@
     "wifiWidget": true,
     "vpnWidget": false,
     "zoomWidget": false,
-    "soundWidget": true,
+    "soundWidget": false,
     "micWidget": false,
     "dateWidget": true,
     "timeWidget": true,
