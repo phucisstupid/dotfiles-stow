@@ -11,7 +11,7 @@
     "inlineSpacesOptions": false,
     "disableAnimations": false,
     "spacesBackgroundColorAsForeground": false,
-    "widgetsBackgroundColorAsForeground": true,
+    "widgetsBackgroundColorAsForeground": false,
     "widgetMaxWidth": "160px",
     "slidingAnimationPace": 4,
     "font": "Maple Mono",
@@ -31,7 +31,7 @@
     "flashspaceServerRefresh": false
   },
   "themes": {
-    "lightTheme": "NightShiftLight",
+    "lightTheme": "CatppuccinLatte",
     "darkTheme": "CatppuccinMocha",
     "colorMain": "",
     "colorMainAlt": "",
