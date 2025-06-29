@@ -163,9 +163,9 @@
   "zoomWidgetOptions": {
     "refreshFrequency": 5000,
     "showOnDisplay": "",
-    "showIcon": true,
     "showVideo": true,
-    "showMic": true
+    "showMic": true,
+    "showIcon": true
   },
   "soundWidgetOptions": {
     "refreshFrequency": 20000,
