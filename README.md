@@ -1,6 +1,6 @@
 # **Dotfiles**
 
-## ⚠️ Important: Back up your `~/.config` if you already have existing configurations.
+## ⚠️ Important: Back up your `~/.config` if you already have existing configurations
 
 ---
 
