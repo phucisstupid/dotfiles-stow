@@ -5,7 +5,7 @@
 ## 🚀 Auto Install with [`Dotflow Script`](https://github.com/phucleeuwu/dotflow)
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucleeuwu/dotflow/main/stow.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh)"
 ```
 
 ## ⚙️ Manual Install
