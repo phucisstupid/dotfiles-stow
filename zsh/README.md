@@ -1,1 +1,1 @@
-# [🚀 See My Zsh configuration for more detail](https://github.com/phucleeuwu/my.zsh)
+# [🚀 See My Zsh configuration for more detail](https://github.com/phucisstupid/my.zsh)
