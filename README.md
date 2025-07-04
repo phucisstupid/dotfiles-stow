@@ -2,8 +2,6 @@
 
 ## ⚠️ Important: Back up your `~/.config` if you already have existing configurations
 
----
-
 ## 🚀 Auto Install with [`Dotflow Script`](https://github.com/phucleeuwu/dotflow)
 
 ```bash
