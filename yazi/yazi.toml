@@ -1,10 +1,6 @@
 [mgr]
 show_hidden = true
 
-[[opener.edit]]
-block = true
-run = "nvim \"$@\""
-
 [[plugin.prepend_fetchers]]
 id = "git"
 name = "*"
