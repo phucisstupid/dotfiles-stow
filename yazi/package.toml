@@ -1,26 +1,26 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "e5f00e2"
+rev = "cbc4450"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "e5f00e2"
+rev = "cbc4450"
 hash = "56fdabc96fc1f4d53c96eb884b02a5be"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "e5f00e2"
+rev = "cbc4450"
 hash = "d6f60c24d8c0cf57a855bf46115b2502"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "e5f00e2"
-hash = "37ebed215c8742eada643fc2655b65e2"
+rev = "cbc4450"
+hash = "a57f09c9e61ffc850d8ea8c6fc1efb2c"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-filter"
-rev = "e5f00e2"
+rev = "cbc4450"
 hash = "a9d553bd19a3cd7f4eab3abaac5d67ff"
 
 [[plugin.deps]]
