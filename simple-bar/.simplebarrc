@@ -140,7 +140,7 @@
   "batteryWidgetOptions": {
     "refreshFrequency": 10000,
     "showOnDisplay": "",
-    "showIcon": true,
+    "showIcon": false,
     "toggleCaffeinateOnClick": true,
     "caffeinateOption": ""
   },
