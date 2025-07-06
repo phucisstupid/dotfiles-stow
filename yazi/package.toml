@@ -34,11 +34,6 @@ rev = "8cc4773"
 hash = "fd03fb015a28040bca0c0f9a8fe6fd8d"
 
 [[plugin.deps]]
-use = "imsi32/yatline-githead"
-rev = "f8f969e"
-hash = "4d441b38138ce6492a4e10fa349fd65"
-
-[[plugin.deps]]
 use = "dedukun/relative-motions"
 rev = "9d26460"
 hash = "6c0568cfa966a5d4ac496c926975a613"
