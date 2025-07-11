@@ -258,6 +258,6 @@
     "userWidgetsList": {}
   },
   "customStyles": {
-    "styles": ":root {\n  --bar-radius: 10px;\n  --item-radius: 10px;\n}"
+    "styles": ":root {\n  --bar-radius: 12px;\n  --item-radius: 12px;\n}"
   }
 }
