@@ -17,7 +17,7 @@
     "font": "Maple Mono",
     "fontSize": "15px",
     "yabaiPath": "/opt/homebrew/bin/yabai",
-    "aerospacePath": "/etc/profiles/per-user/wow/bin/aerospace",
+    "aerospacePath": "$(which aerospace)",
     "flashspacePath": "/usr/local/bin/flashspace",
     "windowManager": "aerospace",
     "shell": "sh",
