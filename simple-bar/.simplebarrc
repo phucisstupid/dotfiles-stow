@@ -16,9 +16,9 @@
     "slidingAnimationPace": 4,
     "font": "Maple Mono",
     "fontSize": "15px",
-    "yabaiPath": "/opt/homebrew/bin/yabai",
+    "yabaiPath": "$(which yabai)",
     "aerospacePath": "$(which aerospace)",
-    "flashspacePath": "/usr/local/bin/flashspace",
+    "flashspacePath": "$(which flashspace)",
     "windowManager": "aerospace",
     "shell": "sh",
     "terminal": "Terminal",
@@ -223,7 +223,8 @@
     "refreshFrequency": 10000,
     "showOnDisplay": "",
     "showIcon": true,
-    "showSpecter": true
+    "showSpecter": true,
+    "showSpotifyMetadata": true
   },
   "youtubeMusicWidgetOptions": {
     "refreshFrequency": 10000,
