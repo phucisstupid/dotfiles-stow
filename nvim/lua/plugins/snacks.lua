@@ -1,8 +1,8 @@
 return {
-	"folke/snacks.nvim",
-	opts = {
-		dashboard = {
-			example = "advanced",
-		},
-	},
+  "folke/snacks.nvim",
+  opts = {
+    dashboard = {
+      example = "advanced",
+    },
+  },
 }
