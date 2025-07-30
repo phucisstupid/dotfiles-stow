@@ -4,5 +4,10 @@ return {
     jump = {
       autojump = true,
     },
+    modes = {
+      search = {
+        enabled = true,
+      },
+    },
   },
 }
