@@ -1,4 +1,4 @@
-accordion-padding = 40
+accordion-padding = 30
 after-startup-command = []
 automatically-unhide-macos-hidden-apps = true
 default-root-container-layout = "tiles"
