@@ -229,7 +229,8 @@
         "facebook.com",
         "reddit.com",
         "google.com",
-        "mynixos.com"
+        "mynixos.com",
+        "desmos.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
