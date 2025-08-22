@@ -1,6 +1,9 @@
 [include]
   path = ./themes/catppuccin.gitconfig
 
+[core]
+    pager = delta
+
 [credential]
 	helper = "osxkeychain"
 
