@@ -1,12 +1,20 @@
 [include]
   path = ./themes/catppuccin.gitconfig
-[delta]
-  features = catppuccin-mocha
-  side-by-side = false
-  true-color = always
-  hyperlinks = true
-  line-numbers = true
+
 [credential]
-  helper = osxkeychain
+	helper = "osxkeychain"
+
+[delta]
+	features = "catppuccin-mocha"
+	hyperlinks = true
+	line-numbers = true
+
 [init]
-  defaultBranch = main
+	defaultBranch = "main"
+
+[interactive]
+	diffFilter = "delta --color-only"
+
+[user]
+	email = "125681538+phucisstupid@users.noreply.github.com"
+	name = "phucisstupid"
