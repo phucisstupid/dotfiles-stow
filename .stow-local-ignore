@@ -1,10 +1,6 @@
 .DS_Store
-.github
 .git
 .gitignore
 README.md
-.stowrc
 brew
 browser😻
-nix
-zsh

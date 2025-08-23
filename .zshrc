@@ -1,4 +1,4 @@
-# ✨ Super complicated Zsh config
+# 🚀 See My Zsh configuration for more detail: https://github.com/phucisstupid/my.zsh
 
 # touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat 
 
