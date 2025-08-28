@@ -2,22 +2,22 @@
   path = ./themes/catppuccin.gitconfig
 
 [core]
-    pager = delta
+  pager = delta
 
 [credential]
-	helper = "osxkeychain"
+  helper = "osxkeychain"
 
 [delta]
-	features = "catppuccin-mocha"
-	hyperlinks = true
-	line-numbers = true
+  features = "catppuccin-mocha"
+  hyperlinks = true
+  line-numbers = true
 
 [init]
-	defaultBranch = "main"
+  defaultBranch = "main"
 
 [interactive]
-	diffFilter = "delta --color-only"
+  diffFilter = "delta --color-only"
 
 [user]
-	email = "125681538+phucisstupid@users.noreply.github.com"
-	name = "phucisstupid"
+  email = "125681538+phucisstupid@users.noreply.github.com"
+  name = "phucisstupid"
