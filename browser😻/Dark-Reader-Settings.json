@@ -1,5 +1,5 @@
 {
-    "schemeVersion": 2,
+    "schemeVersion": 0,
     "enabled": true,
     "fetchNews": true,
     "theme": {
@@ -9,7 +9,7 @@
         "grayscale": 0,
         "sepia": 0,
         "useFont": false,
-        "fontFamily": "Maple Mono",
+        "fontFamily": "Helvetica Neue",
         "textStroke": 0,
         "engine": "dynamicTheme",
         "stylesheet": "",
@@ -17,8 +17,8 @@
         "darkSchemeTextColor": "#cdd6f4",
         "lightSchemeBackgroundColor": "#dcdad7",
         "lightSchemeTextColor": "#181a1b",
-        "scrollbarColor": "auto",
-        "selectionColor": "#585b70",
+        "scrollbarColor": "",
+        "selectionColor": "auto",
         "styleSystemControls": false,
         "lightColorScheme": "Default",
         "darkColorScheme": "Catppuccin",
@@ -27,35 +27,9 @@
     "presets": [],
     "customThemes": [
         {
-            "builtIn": true,
-            "theme": {
-                "mode": 1,
-                "brightness": 100,
-                "contrast": 100,
-                "grayscale": 0,
-                "sepia": 0,
-                "useFont": false,
-                "fontFamily": "Helvetica Neue",
-                "textStroke": 0,
-                "engine": "cssFilter",
-                "stylesheet": "",
-                "darkSchemeBackgroundColor": "#181a1b",
-                "darkSchemeTextColor": "#e8e6e3",
-                "lightSchemeBackgroundColor": "#dcdad7",
-                "lightSchemeTextColor": "#181a1b",
-                "scrollbarColor": "",
-                "selectionColor": "auto",
-                "styleSystemControls": false,
-                "lightColorScheme": "Default",
-                "darkColorScheme": "Default",
-                "immediateModify": false
-            },
             "url": [
                 "*.officeapps.live.com"
-            ]
-        },
-        {
-            "builtIn": true,
+            ],
             "theme": {
                 "mode": 1,
                 "brightness": 100,
@@ -78,12 +52,12 @@
                 "darkColorScheme": "Default",
                 "immediateModify": false
             },
+            "builtIn": true
+        },
+        {
             "url": [
                 "*.sharepoint.com"
-            ]
-        },
-        {
-            "builtIn": true,
+            ],
             "theme": {
                 "mode": 1,
                 "brightness": 100,
@@ -106,12 +80,12 @@
                 "darkColorScheme": "Default",
                 "immediateModify": false
             },
+            "builtIn": true
+        },
+        {
             "url": [
                 "docs.google.com"
-            ]
-        },
-        {
-            "builtIn": true,
+            ],
             "theme": {
                 "mode": 1,
                 "brightness": 100,
@@ -134,9 +108,35 @@
                 "darkColorScheme": "Default",
                 "immediateModify": false
             },
+            "builtIn": true
+        },
+        {
             "url": [
                 "onedrive.live.com"
-            ]
+            ],
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Helvetica Neue",
+                "textStroke": 0,
+                "engine": "cssFilter",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "builtIn": true
         }
     ],
     "enabledByDefault": true,
@@ -229,16 +229,15 @@
         "facebook.com",
         "reddit.com",
         "google.com",
-        "mynixos.com",
         "desmos.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
-    "syncSitesFixes": true,
+    "syncSitesFixes": false,
     "automation": {
-        "behavior": "OnOff",
         "enabled": false,
-        "mode": ""
+        "mode": "",
+        "behavior": "OnOff"
     },
     "time": {
         "activation": "18:00",
@@ -253,16 +252,16 @@
     "enableForPDF": true,
     "enableForProtectedPages": false,
     "enableContextMenus": false,
-    "detectDarkTheme": false,
+    "detectDarkTheme": true,
+    "displayedNews": [
+        "firefox-bugs",
+        "google-docs-bugs"
+    ],
     "installation": {
         "date": 1739593335854,
         "reason": "install",
         "version": "4.9.102"
     },
-    "displayedNews": [
-        "firefox-bugs",
-        "google-docs-bugs"
-    ],
     "readNews": [
         "firefox-bugs",
         "google-docs-bugs"
