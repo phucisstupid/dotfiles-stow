@@ -13,12 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download latest import.json
-        run: curl -sL "https://github.com/catppuccin/userstyles/releases/download/all-userstyles-export/import.json" -o import.json
-
-      - name: Extract Stylus-Catppuccin-Mocha-Mauve.json
-        run: |
-          mkdir -p './browser😻'
-          jq '.[] | select(.name=="Catppuccin Mocha Mauve")' import.json > './browser😻/Stylus-Catppuccin-Mocha-Mauve.json'
+        run: curl -sL "https://github.com/catppuccin/userstyles/releases/download/all-userstyles-export/import.json" -o './browser😻/Stylus-Catppuccin-Mocha-Mauve.json'
 
       - name: Commit and push changes
         run: |
