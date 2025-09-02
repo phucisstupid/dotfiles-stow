@@ -7,7 +7,7 @@ Back up your `~/.config` if you already have existing configurations.
 
 ## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow)
 ```sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh)"
+curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh | sh -s
 ````
 
 This will:
@@ -23,7 +23,7 @@ This will:
 ## 🎨 Only Install SketchyBar Setup
 
 ```sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh)" -- sketchybar
+curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh | sh -s -- sketchybar
 ```
 
 This will:
@@ -39,7 +39,7 @@ This will:
 ## 🗑️ Uninstall
 
 ```sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh)" -- uninstall
+curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh | sh -s -- uninstall
 ```
 
 This will:
