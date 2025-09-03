@@ -5,7 +5,7 @@ Back up your `~/.config` if you already have existing configurations.
 
 ---
 
-## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow/main/stow.sh)
+## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow/blob/main/stow.sh)
 ```sh
 curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh | sh -s
 ````
