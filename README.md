@@ -1,11 +1,13 @@
 # **Dotfiles**
 
-## ⚠️ Important
-Back up your `~/.config` if you already have existing configurations.
+
+## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow/blob/main/stow.sh)
+
+###  ⚠️ Important
+Existing configs are renamed to `.bak` (e.g., `~/.config.bak`)
 
 ---
 
-## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow/blob/main/stow.sh)
 ```sh
 curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh | sh -s
 ````
@@ -13,7 +15,7 @@ curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh |
 This will:
 
 * Clone the dotfiles
-* Reset your `~/.zshrc` and `~/.config`
+* backup your `~/.zshrc` and `~/.config`
 * Install Homebrew, Zinit, Starship, Stow (if missing)
 * Apply all dotfiles with GNU Stow
 * Ask if you want to install SketchyBar + dependencies
@@ -36,6 +38,16 @@ This will:
 
 ---
 
+## ⚙️ Manual Install
+
+```sh
+git clone --depth 1 https://github.com/phucisstupid/dotfiles-stow.git
+cd dotfiles-stow
+stow .
+```
+
+---
+
 ## 🗑️ Uninstall
 
 ```sh
@@ -46,14 +58,4 @@ This will:
 
 * Remove all symlinks created by Stow
 * Optionally uninstall SketchyBar + helpers
-* Restore your `~/.zshrc`
-
----
-
-## ⚙️ Manual Install
-
-```sh
-git clone --depth 1 https://github.com/phucisstupid/dotfiles-stow.git
-cd dotfiles-stow
-stow .
-```
+* Restore your config
