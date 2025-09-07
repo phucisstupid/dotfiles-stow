@@ -1,6 +1,8 @@
 zoxide init fish | source
 starship init fish | source
 
+fish_config theme choose "Catppuccin Mocha"
+
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
     yazi $argv --cwd-file="$tmp"
