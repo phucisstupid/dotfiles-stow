@@ -57,5 +57,5 @@ curl -fsSL https://raw.githubusercontent.com/phucisstupid/dotflow/main/stow.sh |
 This will:
 
 * Remove all symlinks created by Stow
-* Optionally uninstall SketchyBar + helpers
+* Optionally uninstall brew
 * Restore your config
