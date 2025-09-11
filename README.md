@@ -1,9 +1,9 @@
 # **Dotfiles**
 
-
 ## 🚀 Auto Install with [Dotflow Script](https://github.com/phucisstupid/dotflow/blob/main/stow.sh)
 
-###  ⚠️ Important
+### ⚠️ Important
+
 Existing configs are renamed to `.bak` (e.g., `~/.config.bak`)
 
 ---
