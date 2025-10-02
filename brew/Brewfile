@@ -2,6 +2,7 @@ tap "felixkratz/formulae"
 tap "nikitabobko/tap"
 brew "atuin", restart_service: :changed
 brew "bat"
+brew "btop"
 brew "uutils-coreutils"
 brew "eza"
 brew "fastfetch"
@@ -33,4 +34,3 @@ cask "karabiner-elements"
 cask "raycast"
 cask "spotify"
 cask "ubersicht"
-
