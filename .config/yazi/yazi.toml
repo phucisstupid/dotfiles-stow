@@ -14,4 +14,3 @@ run = "git"
 [preview]
 max_height = 1500
 max_width = 1500
-wrap = "yes"
