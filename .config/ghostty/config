@@ -1,6 +1,5 @@
-theme = catppuccin-mocha
 font-family = Maple Mono
-font-size = 19
+font-size = 18
+macos-option-as-alt = true
 mouse-hide-while-typing = true
-macos-option-as-alt = "left"
-macos-titlebar-style = "hidden"
+theme = light:catppuccin-mocha,dark:catppuccin-mocha
