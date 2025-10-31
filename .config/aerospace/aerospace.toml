@@ -10,13 +10,13 @@ on-focused-monitor-changed = ["move-mouse monitor-lazy-center"]
 start-at-login = true
 
 [gaps.inner]
-horizontal = 5
-vertical = 5
+horizontal = 3
+vertical = 3
 
 [gaps.outer]
-bottom = 5
-left = 5
-right = 5
+bottom = 2
+left = 2
+right = 2
 top = 45
 
 [key-mapping]
@@ -27,71 +27,58 @@ alt-1 = "workspace 1"
 alt-2 = "workspace 2"
 alt-3 = "workspace 3"
 alt-4 = "workspace 4"
-alt-b = "workspace B"
 alt-comma = "layout accordion horizontal vertical"
-alt-e = "workspace E"
-alt-f = "fullscreen"
+alt-equal = "resize smart +50"
 alt-h = "focus left"
 alt-j = "focus down"
 alt-k = "focus up"
 alt-l = "focus right"
-alt-r = "mode resize"
+alt-minus = "resize smart -50"
 alt-shift-1 = "move-node-to-workspace 1"
 alt-shift-2 = "move-node-to-workspace 2"
 alt-shift-3 = "move-node-to-workspace 3"
 alt-shift-4 = "move-node-to-workspace 4"
-alt-shift-b = "move-node-to-workspace B"
-alt-shift-e = "move-node-to-workspace E"
+alt-shift-f = "fullscreen --no-outer-gaps"
 alt-shift-h = "move left"
 alt-shift-j = "move down"
 alt-shift-k = "move up"
 alt-shift-l = "move right"
 alt-shift-semicolon = "mode service"
-alt-shift-t = "move-node-to-workspace T"
 alt-shift-tab = "move-workspace-to-monitor --wrap-around next"
 alt-slash = "layout tiles horizontal vertical"
-alt-t = "workspace T"
 alt-tab = "workspace-back-and-forth"
-
-[mode.resize.binding]
-b = ["balance-sizes", "mode main"]
-equal = "resize smart +50"
-esc = "mode main"
-minus = "resize smart -50"
 
 [mode.service.binding]
 alt-shift-h = ["join-with left", "mode main"]
 alt-shift-j = ["join-with down", "mode main"]
 alt-shift-k = ["join-with up", "mode main"]
 alt-shift-l = ["join-with right", "mode main"]
+b = ["balance-sizes", "mode main"]
 backspace = ["close-all-windows-but-current", "mode main"]
-down = "volume down"
-esc = ["reload-config", "mode main"]
+esc = ["mode main"]
 f = ["layout floating tiling", "mode main"]
 r = ["flatten-workspace-tree", "mode main"]
-shift-down = ["volume set 0", "mode main"]
-up = "volume up"
 
 [[on-window-detected]]
-run = "move-node-to-workspace E"
+run = "move-node-to-workspace 1"
 
 [on-window-detected.if]
-app-name-regex-substring = "finder"
+app-name-regex-substring = "zen|safari|helium"
 
 [[on-window-detected]]
-run = "move-node-to-workspace T"
+run = "move-node-to-workspace 2"
 
 [on-window-detected.if]
-app-name-regex-substring = "wezterm|kitty|ghostty"
+app-name-regex-substring = "TV|spotify|stremio"
 
 [[on-window-detected]]
-run = "move-node-to-workspace B"
+run = "move-node-to-workspace 3"
 
 [on-window-detected.if]
-app-name-regex-substring = "zen|arc|safari|brave"
+app-name-regex-substring = "bluebook|preview"
 
 [[on-window-detected]]
 run = "move-node-to-workspace 4"
 
 [on-window-detected.if]
-app-name-regex-substring = "spotify"
+app-name-regex-substring = "wezterm|kitty|ghostty|terminal"
