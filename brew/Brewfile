@@ -28,7 +28,7 @@ brew "tmux"
 brew "felixkratz/formulae/borders", restart_service: :changed
 cask "karabiner-elements"
 cask "aerospace"
-cask "font-maple-mono"
+cask "font-maple-mono-nf"
 cask "ghostty"
 cask "karabiner-elements"
 cask "raycast"

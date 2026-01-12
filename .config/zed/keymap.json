@@ -1,7 +1,0 @@
-[
-  {
-    "bindings": {
-      "cmd-shift-r": ["task::Spawn", { "task_name": "run file" }]
-    }
-  }
-]
