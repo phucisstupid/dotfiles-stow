@@ -8,26 +8,26 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "terminal": {
-    "font_family": "Maple Mono NF"
+    "font_family": "Maple Mono NF",
   },
   "agent": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4"
-    }
+      "model": "claude-sonnet-4",
+    },
   },
   "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "Maple Mono NF",
   "ui_font_family": "Maple Mono NF",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "vim_mode": true,
   "relative_line_numbers": "enabled",
   "ui_font_size": 17.0,
   "buffer_font_size": 18.0,
-  "theme": "Catppuccin Mocha"
+  "theme": "Catppuccin Mocha",
   "auto_install_extensions": {
     "git-firefly": true,
     "catppuccin": true,
