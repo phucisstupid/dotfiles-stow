@@ -7,6 +7,10 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="/opt/homebrew/bin:$PATH"
 source /opt/homebrew/opt/zinit/zinit.zsh
 
+zinit depth"1" lucid nocd light-mode for phucisstupid/my.zsh
+
+alias lg='lazygit
+
 # 🚀 Load Shell Prompt
 eval "$(starship init zsh)"
 # eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
@@ -16,6 +20,3 @@ eval "$(atuin init zsh)"
 
 # 🐄 Cowsay (For Fun)
 # zinit depth"1" lucid nocd light-mode atload"joke | lolcat" for phucleeuwu/cowsay.zsh
-
-# 🔌 OhMyZsh + Aliases (with Zinit plugins manager)
-zinit depth"1" lucid nocd light-mode for phucisstupid/my.zsh
