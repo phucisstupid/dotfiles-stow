@@ -1,6 +1,6 @@
 # 🚀 See My Zsh configuration for more detail: https://github.com/phucisstupid/my.zsh
 
-# touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat 
+# touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat
 
 # 🌙 Environment Variables
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -9,7 +9,7 @@ source /opt/homebrew/opt/zinit/zinit.zsh
 
 zinit depth"1" lucid nocd light-mode for phucisstupid/my.zsh
 
-alias lg='lazygit
+alias lg='lazygit'
 
 # 🚀 Load Shell Prompt
 eval "$(starship init zsh)"
