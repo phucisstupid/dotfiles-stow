@@ -48,11 +48,6 @@ use = "Lil-Dank/lazygit"
 rev = "0e56060"
 hash = "ab2e66065a94cca4886b303518e44bd8"
 
-[[plugin.deps]]
-use = "imsi32/yatline-githead"
-rev = "929e52c"
-hash = "8282baf02fcd6aac00ccad2276775358"
-
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
 rev = "9e053d0"
