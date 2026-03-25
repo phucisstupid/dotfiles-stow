@@ -1,0 +1,16 @@
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+jeffreytse/zsh-vi-mode
+aloxaf/fzf-tab
+
+# themes
+catppuccin/zsh-syntax-highlighting path:themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+catppuccin/fzf path:themes/catppuccin-fzf-mocha.sh
+
+# ohmyzsh
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:plugins/fzf
+ohmyzsh/ohmyzsh path:plugins/eza
+ohmyzsh/ohmyzsh path:plugins/zoxide
+ohmyzsh/ohmyzsh path:plugins/brew
+ohmyzsh/ohmyzsh path:plugins/starship

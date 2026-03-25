@@ -1,22 +1,18 @@
-# 🚀 See My Zsh configuration for more detail: https://github.com/phucisstupid/my.zsh
-
-# touch ~/.hushlogin && echo " $(date '+%Y-%m-%d  %H:%M')" | lolcat
-
-# 🌙 Environment Variables
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="/opt/homebrew/bin:$PATH"
-source /opt/homebrew/opt/zinit/zinit.zsh
 
-zinit depth"1" lucid nocd light-mode for phucisstupid/my.zsh
+export ZOXIDE_CMD_OVERRIDE=cd
 
+zstyle ':omz:plugins:eza' 'dirs-first' yes
+zstyle ':omz:plugins:eza' 'git-status' yes
+zstyle ':omz:plugins:eza' 'icons' yes
+zstyle ':omz:plugins:eza' 'hyperlink' yes
+
+setopt autocd
 alias lg='lazygit'
-
-# 🚀 Load Shell Prompt
-eval "$(starship init zsh)"
-# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
 
 # 🐢 Atuin (Better Shell History)
 eval "$(atuin init zsh)"
 
-# 🐄 Cowsay (For Fun)
-# zinit depth"1" lucid nocd light-mode atload"joke | lolcat" for phucleeuwu/cowsay.zsh
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
+antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
