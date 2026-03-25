@@ -11,6 +11,14 @@ zstyle ':omz:plugins:eza' 'hyperlink' yes
 setopt autocd
 alias lg='lazygit'
 
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
 # 🐢 Atuin (Better Shell History)
 eval "$(atuin init zsh)"
 
