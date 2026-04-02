@@ -1,6 +1,7 @@
+autoload -U compinit && compinit
+
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="/opt/homebrew/bin:$PATH"
-
 export ZOXIDE_CMD_OVERRIDE=cd
 
 zstyle ':omz:plugins:eza' 'dirs-first' yes
