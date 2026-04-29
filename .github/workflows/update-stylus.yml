@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download latest import.json
         run: curl -sL "https://github.com/catppuccin/userstyles/releases/download/all-userstyles-export/import.json" -o './browser/Stylus-Catppuccin-Mocha-Mauve.json'
