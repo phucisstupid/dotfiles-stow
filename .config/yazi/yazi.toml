@@ -2,14 +2,14 @@
 show_hidden = true
 
 [[plugin.prepend_fetchers]]
-id = "git"
-name = "*"
+group = "git"
 run = "git"
+url = "*"
 
 [[plugin.prepend_fetchers]]
-id = "git"
-name = "*/"
+group = "git"
 run = "git"
+url = "*/"
 
 [preview]
 max_height = 1500
